@@ -1,0 +1,347 @@
+<section id="contact_us">
+        <div class="content">
+            <h2>Contact Us</h2>
+            <p>Contact Us to to know about Concert. We will try our best to respond You.</p>
+        </div>
+        <div class="container">
+            <div class="contactInfo">
+                <div class="box">
+                    <div class="icon"><img src="img/ocation.png" alt=""></div>
+                    <div class="text">
+                        <h3>Address:</h3>
+                        <p>Biratnagar-7, Morang</p>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="icon"><img src="img/email.png" height="25px" width="25px" alt=""></div>
+                    <div class="text">
+                        <h3>Email:</h3>
+                        <p>Manojsoundsystem@gmail.com</p>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="icon"><img src="img/icons8-phone-25.png" alt=""></div>
+                    <div class="text">
+                        <h3>Phone:</h3>
+                        <p>984-2028543</p>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="img/icon"></div>
+                <div class="text">
+                    <h3>Warehouse Time:</h3>
+                    <p>24Hrs</p>
+                </div>
+            </div>
+
+
+
+            <div class="contactForm">
+
+                <form action="./Contact.html">
+                    <h2>Send Your Message</h2>
+                    <div class="inputBox">
+                        <input type="text" name="" required>
+                        <span>Full Name:</span>
+                    </div>
+                    <div class="inputBox">
+                        <input type="email" name="" id="" required>
+                        <span>Email:</span>
+                    </div>
+                    <div class="inputBox">
+                        <textarea name="" id="" required></textarea>
+                        <span>Your Message:</span>
+                    </div>
+                    <div class="inputBox">
+                        <a href="contact.html"> <input type="submit" value="Send"></a>
+                    </div>
+                </form>
+            </div>
+        </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+<p class="lg:w-2/3 mx-auto leading-relaxed text-base">Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical gentrify, subway tile poke farm-to-table. Franzen you probably haven't heard of them man bun deep jianbing selfies heirloom.</p>
+https://www.youtube.com/watch?v=nM-30MdKNc4
+
+
+
+    <div class="container">
+        <div class="image">
+            <img src="img/mlogo.png" alt="">
+        </div>
+        <div class="content">
+            <h3>MANOJ SOUND SYSTEM</h3>
+            <p> MSS (Manoj Sound System) was established in the year 1972 A.D, The traditional business of
+                electronics is now being looked after by Mr. Jiwachh Pd Rouniyar the founder of MSS (Manoj Sound
+                System) ,Proprietor Mr. Manoj Rouniyar. MSS has been providing the sound and light services to
+                people from various sectors. From national to inter-national events, MSS has served them all
+                with the out-standing quality in sound and light system</p>
+        </div>
+    </div>
+
+
+    
+    <footer class="footer">
+        <div class="container3">
+            <div class="row">
+                <div class="footer-col">
+                    <h4>Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="service.html">Services</a></li>
+                        <li><a href="album.html">Album</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>ADDRESS</h4>
+                    <p>Biratnagar, Hatkhola, Nepal</p>
+                    <p>Phone : +977-9810422211</p>
+                    <p class="email-id">Email : manojsoundsystem@gmail.com</p>
+                    <p>Warehouse Time : 24Hrs</p>
+                    <p class="web">Website:<a style="text-decoration:none; color: white; " href="index.html"> manojsoundystem.com</a></p>
+                </div>
+                <div class="footer-col">
+                    <h4>FOLLOWS US</h4>
+                    <div class="social-icon">
+                        <a href="https://www.facebook.com/manojsoundbrt/"><i class="fab fa-facebook"></i></a>
+                        <a href="https://www.youtube.com/watch?v=DFzL2IGlcHc"><i class="fab fa-youtube"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+
+
+                </div>
+
+            </div>
+        </div>
+
+    </footer>
+
+
+
+    
+.navbar {
+   width: 100%;
+   height: 70px;
+
+}
+
+.background {
+   background: rgba(0, 0, 0, 0.7) url(img/nim.jpg);
+   background-size: cover;
+   background-blend-mode: darken;
+}
+
+.image{
+   text-align: center;
+   margin: 30px 0px;
+}
+
+
+.container{
+   width: 80%;
+   padding-left: 15px;
+   padding-right: 15px;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+.content h3{
+   
+   color: #5d5d5d;
+   font-size: 28px;
+   letter-spacing: 10px;
+   padding-top: 20px;
+
+}
+.content p{
+
+   font-family: sans-serif;
+   padding-top: 20px;
+   font-size: 15px;
+   line-height: 26px;
+}
+
+
+
+
+
+
+
+.logo img {
+   width: 80px;
+
+}
+
+.navlist {
+   display: flex;
+   align-items: center;
+   padding: 10px 34px;
+}
+
+.navbar li {
+   list-style: none;
+
+}
+
+.navbar a {
+   text-decoration: none;
+   color: white;
+   padding: 0px 34px;
+}
+
+.navbar a:hover {
+   color: grey;
+}
+
+
+.btmfooter ul li a {
+   text-decoration: none;
+   color: black;
+}
+.footer {
+   background-color: #24262b;
+   padding: 70px 0px;
+   margin: 35px 0px;
+
+}
+
+.row {
+   display: flex;
+   flex-wrap: wrap;
+}
+
+.container3 {
+   max-width: 1170px;
+   margin: auto;
+
+}
+
+.footer-col {
+   width: 25%;
+   padding: 0px 15px;
+}
+
+.footer-col h4 {
+   font-size: 18px;
+   color: #ffffff;
+   text-transform: capitalize;
+   margin-bottom: 35px;
+   font-family: 'Ubuntu', sans-serif;
+   font-weight: 500;
+   position: relative;
+
+}
+
+
+.footer-col h4::before {
+   content: "";
+   position: absolute;
+   left: 0;
+   bottom: -10px;
+   background-color: #e93e63;
+   height: 2px;
+   box-sizing: border-box;
+   width: 50px;
+}
+
+.email-id {
+   width: fit-content;
+   border-bottom: 1px solid #ccc;
+}
+
+.footer-col p {
+   color: #ffffff;
+}
+
+
+.footer-col ul li:not(:last-child) {
+   margin-bottom: 10px;
+}
+
+.footer-col ul li {
+   list-style: none;
+}
+
+.footer-col ul li a {
+   text-decoration: none;
+   color: #fff;
+   font-size: 16px;
+   text-transform: capitalize;
+   font-weight: 300;
+   color: #bbbbbb;
+   display: block;
+   transition: all 0.3s ease;
+
+
+}
+
+.footer-col ul li a:hover {
+   color: #ffffff;
+   padding-left: 10px;
+}
+
+.footer-col .social-icon a {
+   display: inline-block;
+   height: 40px;
+   width: 40px;
+   background-color: rgba(255, 255, 255, 0.2);
+   margin: 0 10px 10px 0;
+   text-align: center;
+   line-height: 40px;
+   border-radius: 50%;
+   color: #ffffff;
+   transition: all 0.5s ease;
+   cursor: pointer;
+}
+
+.footer-col .social-icon a:hover {
+   color: #24262b;
+   background-color: #ffffff;
+
+}
+
+.btmfooter {
+   border-top: 1px solid #e8e8e8;
+   padding-top: 20px;
+   margin-top: 20px;
+   height: 60px;
+   align-items: center;
+}
+
+
+.btmfotflex {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+}
+
+.btmfooter ul li {
+   display: inline-block;
+   position: relative;
+   margin-left: 30px;
+}
+
+
+.web{
+   width: fit-content;
+   border-bottom: 1px solid #ccc;
+}
+
+
+

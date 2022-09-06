@@ -1,0 +1,387 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+
+* {
+   margin: 0;
+   padding: 0;
+   font-family: 'Ubuntu', sans-serif;
+
+}
+
+body {
+   font-family: 'Ubuntu', sans-serif;
+
+}
+
+
+.navbar {
+   width: 100%;
+   height: 70px;
+
+}
+
+.background {
+   background: rgba(0, 0, 0, 0.7) url(img/nim.jpg);
+   background-size: cover;
+   background-blend-mode: darken;
+}
+
+
+
+
+
+
+.logo img {
+   width: 80px;
+
+}
+
+.navlist {
+   display: flex;
+   align-items: center;
+   padding: 10px 34px;
+}
+
+.navbar li {
+   list-style: none;
+
+}
+
+.navbar a {
+   text-decoration: none;
+   color: white;
+   padding: 0px 34px;
+}
+
+.navbar a:hover {
+   color: grey;
+}
+
+
+
+
+#contact_us {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10rem 12rem;
+    position: relative;
+    background: #3B38E8;
+    font-family: monestro;
+
+
+}
+
+@media only screen and (max-width:1250px) {
+    #contact_us {
+        margin-top: 0px;
+    }
+
+}
+
+#contact_us .content {
+    max-width: 70rem;
+    text-align: center;
+
+}
+
+#contact_us .content h2 {
+    font-size: 36px;
+    padding: 0 0 2rem 0;
+    font-weight: 500;
+    color: #fff;
+    letter-spacing: 2px;
+}
+
+#contact_us .content p {
+    font-size: 22px;
+    letter-spacing: 4px;
+    font-weight: 300;
+    color: #fff;
+}
+
+#contact_us .container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+
+}
+
+#contact_us .container .contactInfo {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+#contact_us .container .contactInfo .box {
+    position: relative;
+    padding: 1rem 0;
+    display: flex;
+}
+
+#contact_us .container .contactInfo .box .icon {
+    min-width: 10%;
+    height: 2rem;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 50%;
+}
+
+#contact_us .container .contactInfo .box .text {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 300;
+    margin-left: 1rem;
+}
+
+#contact_us .container .contactInfo .box .text h3 {
+    font-weight: 500;
+    color: azure;
+}
+
+#contact_us .container .contactInfo .box .text p {
+    font-size: 22px;
+
+}
+
+#contact_us .container .contactForm {
+    background: white;
+    height: 55vh;
+    width: 24%;
+    display: flex;
+    padding: 2rem;
+    border-radius: 1rem;
+}
+
+.contactForm h2 {
+    font-size: 30px;
+    color: #333;
+    font-weight: 500;
+    text-align: center;
+}
+
+.contactForm .inputBox {
+    position: relative;
+    width: 100%;
+    margin-top: 1rem;
+}
+
+.contactForm .inputBox input[type="email"],
+.contactForm .inputBox input[type="text"],
+.contactForm .inputBox textarea {
+    width: 100%;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 2px solid #333;
+    outline: none;
+    resize: none;
+}
+
+.contactForm .inputBox span {
+    position: absolute;
+    left: 0;
+    padding: 5px 0;
+    font-size: 18px;
+    pointer-events: none;
+    margin: 10px 0;
+    transform: translateY(-20px);
+    transition: 0.5s;
+    color: rgb(61, 47, 47);
+}
+
+
+
+
+
+
+.contactForm .inputBox input[type="submit"] {
+    width: 100%;
+    background-color: #3B38E8;
+    color: white;
+    padding: 0.5rem 0.5rem;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.footer {
+    background-color: #24262b;
+    padding: 70px 0px;
+ 
+ }
+ 
+ .row {
+    display: flex;
+    flex-wrap: wrap;
+ }
+ 
+ .container3 {
+    max-width: 1170px;
+    margin: auto;
+ 
+ }
+ 
+ .footer-col {
+    width: 25%;
+    padding: 0px 15px;
+ }
+ 
+ .footer-col h4 {
+    font-size: 18px;
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
+    position: relative;
+ 
+ }
+ 
+ 
+ .footer-col h4::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: #e93e63;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+ }
+ 
+ .email-id {
+    width: fit-content;
+    border-bottom: 1px solid #ccc;
+ }
+ .web{
+    width: fit-content;
+    border-bottom: 1px solid #ccc;
+ }
+ 
+ .footer-col p {
+    color: #ffffff;
+ }
+ 
+ 
+ .footer-col ul li:not(:last-child) {
+    margin-bottom: 10px;
+ }
+ 
+ .footer-col ul li {
+    list-style: none;
+ }
+ 
+ .footer-col ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    text-transform: capitalize;
+    font-weight: 300;
+    color: #bbbbbb;
+    display: block;
+    transition: all 0.3s ease;
+ 
+ 
+ }
+ 
+ .footer-col ul li a:hover {
+    color: #ffffff;
+    padding-left: 10px;
+ }
+ 
+ .footer-col .social-icon a {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #ffffff;
+    transition: all 0.5s ease;
+    cursor: pointer;
+ }
+ 
+ .footer-col .social-icon a:hover {
+    color: #24262b;
+    background-color: #ffffff;
+ 
+ }
+
+ 
+.btmfooter {
+   border-top: 1px solid #e8e8e8;
+   padding-top: 20px;
+   margin-top: 20px;
+   height: 60px;
+   align-items: center;
+}
+
+
+.btmfotflex {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+}
+
+.btmfooter ul li {
+   display: inline-block;
+   position: relative;
+   margin-left: 30px;
+}
+ 
+
+
+@media only screen and (max-width:697px){
+   #contact_us{
+       height: 140vh;
+       width: 100%;
+       margin-top: 0;
+   }
+   #contact_us .container .contactInfo{
+       width: 80%;
+
+   }
+   #contact_us .container .contactForm{
+       height: 80vh;
+       width: 70%;
+   }
+
+
+}
+@media only screen and (max-width:911px){
+   #contact_us .container .contactForm{
+       height: 60vh;
+   }
+
+}
+@media only screen and (max-width:697px){
+   #contact_us .container{
+       flex-direction: column;
+       width: 100%;
+   }
+}
+@media only screen and (max-width:696px )  {
+   #contact_us .container .contactForm{
+       height: 60vh;
+       width: 50%;
+   }
+   }
+
+   @media only screen and (max-width:413px )  {
+       #contact_us .container .contactForm{
+           height: 60vh;
+           width: 80%;
+       }
+   }
