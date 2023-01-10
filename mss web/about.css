@@ -1,0 +1,546 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+
+* {
+   margin: 0;
+   padding: 0;
+   font-family: 'Ubuntu', sans-serif;
+
+}
+
+body {
+   font-family: 'Ubuntu', sans-serif;
+
+}
+nav{
+   background: rgba(0, 0, 0, 0.7)url(img/nim.jpg);
+   height: 80px;
+   background-size: cover;
+   background-blend-mode: darken;
+   width: 100%;
+ }
+ label.logo{
+   color: white;
+   font-size: 35px;
+   line-height: 80px;
+   padding: 0 35px;
+   font-weight: bold;
+   padding-top: 13px;
+ }
+
+ .logo img{
+   width: 90px;
+ }
+ nav ul{
+   float: right;
+   margin-right: 20px;
+   z-index: 199999;
+ }
+ nav ul li{
+   display: inline-block;
+   line-height: 80px;
+   margin: 0 5px;
+ }
+ nav ul li a{
+   color: white;
+   font-size: 17px;
+   padding: 7px 13px;
+   border-radius: 3px;
+   text-transform: uppercase;
+ }s
+
+/* .navbar {
+   width: 100%;
+   height: 70px;
+
+}
+
+.background {
+   background: rgba(0, 0, 0, 0.7) url(img/nim.jpg);
+   background-size: cover;
+   background-blend-mode: darken;
+}
+
+nav{
+   background: #800505;
+   height: 80px;
+   width: 100%;
+ }
+ label.logo{
+   color: white;
+   font-size: 35px;
+   line-height: 80px;
+   padding: 0 100px;
+   font-weight: bold;
+ }
+ .logo img{
+   width: 80px;
+   padding: 18px 0px;
+ }
+ nav ul{
+   float: right;
+   margin-right: 20px;
+ }
+ nav ul li{
+   display: inline-block;
+   line-height: 80px;
+   margin: 0 5px;
+ }
+ nav ul li a{
+   color: white;
+   font-size: 17px;
+   padding: 7px 13px;
+   border-radius: 3px;
+   text-transform: uppercase;
+ }
+ /* a.active,a:hover{
+   background: #1b9bff;
+   transition: .5s;
+ } */
+ .checkbtn{
+   font-size: 30px;
+   color: white;
+   float: right;
+   line-height: 80px;
+   margin-right: 40px;
+   cursor: pointer;
+   display: none;
+ }
+ #check{
+   display: none;
+ }
+ @media (max-width: 952px){
+   label.logo{
+     font-size: 30px;
+     padding-left: 50px;
+   }
+   nav ul li a{
+     font-size: 16px;
+   }
+ }
+ @media (max-width: 858px){
+   .checkbtn{
+     display: block;
+   }
+   ul{
+     position: fixed;
+     width: 100%;
+     height: 100vh;
+     background: #2c3e50;
+     top: 80px;
+     left: -100%;
+     text-align: center;
+     transition: all .5s;
+   }
+   nav ul li{
+     display: block;
+     margin: 50px 0;
+     line-height: 30px;
+   }
+   nav ul li a{
+     font-size: 20px;
+   }
+   /* a:hover,a.active{
+     background: none;
+     color: #0082e6;
+   } */
+   #check:checked ~ ul{
+     left: 0;
+     z-index: 199999;
+   }
+ }
+ /* section{
+   background: url(bg1.jpg) no-repeat;
+   background-size: cover;
+   height: calc(100vh - 80px);
+ } */
+
+
+
+
+
+
+
+.logo img {
+   width: 80px;
+
+}
+
+.navlist {
+   display: flex;
+   align-items: center;
+   padding: 10px 34px;
+}
+
+.navbar li {
+   list-style: none;
+
+}
+
+.navbar a {
+   text-decoration: none;
+   color: white;
+   padding: 0px 34px;
+}
+
+.navbar a:hover {
+   color: grey;
+} */
+
+
+.image{
+   text-align: center;
+   margin: 30px 0px;
+}
+
+
+.container{
+   width: 80%;
+   padding-left: 15px;
+   padding-right: 15px;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+.content h3{
+   
+   color: #5d5d5d;
+   font-size: 28px;
+   letter-spacing: 10px;
+   padding-top: 20px;
+
+}
+.content p{
+
+   font-family: sans-serif;
+   padding-top: 20px;
+   font-size: 15px;
+   line-height: 26px;
+}
+
+
+
+
+
+
+
+/* .logo img {
+   width: 80px;
+
+}
+
+.navlist {
+   display: flex;
+   align-items: center;
+   padding: 10px 34px;
+}
+
+.navbar li {
+   list-style: none;
+
+}
+
+.navbar a {
+   text-decoration: none;
+   color: white;
+   padding: 0px 34px;
+}
+
+.navbar a:hover {
+   color: grey;
+} */
+
+
+.btmfooter ul li a {
+   text-decoration: none;
+   color: black;
+}
+.footer {
+   background-color: #24262b;
+   padding: 70px 0px;
+   margin: 35px 0px;
+
+}
+
+.row {
+   display: flex;
+   flex-wrap: wrap;
+}
+
+.container3 {
+   max-width: 1170px;
+   margin: auto;
+
+}
+
+.footer-col {
+   width: 25%;
+   padding: 0px 15px;
+}
+
+.footer-col h4 {
+   font-size: 18px;
+   color: #ffffff;
+   text-transform: capitalize;
+   margin-bottom: 35px;
+   font-family: 'Ubuntu', sans-serif;
+   font-weight: 500;
+   position: relative;
+
+}
+
+
+.footer-col h4::before {
+   content: "";
+   position: absolute;
+   left: 0;
+   bottom: -10px;
+   background-color: #e93e63;
+   height: 2px;
+   box-sizing: border-box;
+   width: 50px;
+}
+
+.email-id {
+   width: fit-content;
+   border-bottom: 1px solid #ccc;
+}
+
+.footer-col p {
+   color: #ffffff;
+}
+
+
+.footer-col ul li:not(:last-child) {
+   margin-bottom: 10px;
+}
+
+.footer-col ul li {
+   list-style: none;
+}
+
+.footer-col ul li a {
+   text-decoration: none;
+   color: #fff;
+   font-size: 16px;
+   text-transform: capitalize;
+   font-weight: 300;
+   color: #bbbbbb;
+   display: block;
+   transition: all 0.3s ease;
+
+
+}
+
+.footer-col ul li a:hover {
+   color: #ffffff;
+   padding-left: 10px;
+}
+
+.footer-col .social-icon a {
+   display: inline-block;
+   height: 40px;
+   width: 40px;
+   background-color: rgba(255, 255, 255, 0.2);
+   margin: 0 10px 10px 0;
+   text-align: center;
+   line-height: 40px;
+   border-radius: 50%;
+   color: #ffffff;
+   transition: all 0.5s ease;
+   cursor: pointer;
+}
+
+.footer-col .social-icon a:hover {
+   color: #24262b;
+   background-color: #ffffff;
+
+}
+
+
+
+
+
+
+
+.btmfooter {
+   border-top: 1px solid #e8e8e8;
+   padding-top: 20px;
+   margin-top: 20px;
+   height: 60px;
+   align-items: center;
+}
+
+
+.btmfotflex {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+}
+
+.btmfooter ul li {
+   display: inline-block;
+   position: relative;
+   margin-left: 30px;
+}
+.web{
+   width: fit-content;
+   border-bottom: 1px solid #ccc;
+}
+
+
+#preloader{
+   background: #fff url(img/ld2.gif) no-repeat center center;
+   height: 100vh;
+   width: 100%;
+   position: fixed;
+   z-index: 100;
+   
+}
+/* custom scroll bar */
+::-webkit-scrollbar {
+   width: 10px;
+}
+::-webkit-scrollbar-track {
+   background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+   background: #888;
+}
+::selection{
+ background: rgb(0,123,255,0.3);
+}
+.content{
+ max-width: 1250px;
+ margin: auto;
+ padding: 0 30px;
+}
+.navbar{
+ position: fixed;
+ width: 100%;
+ z-index: 2;
+ padding: 25px 0;
+ transition: all 0.3s ease;
+}
+.navbar.sticky{
+ background: #1b1b1b;
+ padding: 10px 0;
+ box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.1);
+}
+.navbar .content{
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+}
+.navbar .logo a{
+ color: black;
+ font-size: 30px;
+ font-weight: 600;
+ text-decoration: none;
+}
+.navbar .menu-list{
+ display: inline-flex;
+}
+.menu-list li{
+ list-style: none;
+}
+.menu-list li a{
+ color: #000;
+ font-size: 18px;
+ font-weight: 500;
+ margin-left: 25px;
+ text-decoration: none;
+ transition: all 0.3s ease;
+}
+.menu-list li a:hover{
+ color: #007bff;
+}
+.banner{
+ background: url("banner.jpg") no-repeat;
+ height: 100vh;
+ background-size: cover;
+ background-position: center;
+ background-attachment: fixed;
+}
+.about{
+ padding: 30px 0;
+}
+.about .title{
+ font-size: 38px;
+ font-weight: 700;
+}
+.about p{
+ padding-top: 20px;
+ text-align: justify;
+}
+.icon{
+ color: #000;
+ font-size: 20px;
+ cursor: pointer;
+ display: none;
+ 
+}
+.menu-list .cancel-btn{
+ position: absolute;
+ right: 30px;
+ top: 20px;
+}
+@media (max-width: 1230px) {
+ .content{
+   padding: 0 60px;
+ }
+}
+@media (max-width: 1100px) {
+ .content{
+   padding: 0 40px;
+ }
+}
+@media (max-width: 900px) {
+ .content{
+   padding: 0 30px;
+ }
+}
+@media (max-width: 868px) {
+ body.disabled{
+   overflow: hidden;
+ }
+ .icon{
+   display: block;
+   margin-right: 15px;
+ }
+ .icon.hide{
+   display: none;
+ }
+ .navbar .menu-list{
+   position: fixed;
+   height: 100vh;
+   width: 100%;
+   max-width: 400px;
+   left: -100%;
+   top: 0px;
+   display: block;
+   padding: 40px 0;
+   text-align: center;
+   background: #fff;
+   transition: all 0.3s ease;
+ }
+ .navbar.show .menu-list{
+   left: 0%;
+ }
+ .navbar .menu-list li{
+   margin-top: 45px;
+ }
+ .navbar .menu-list li a{
+   font-size: 23px;
+   margin-left: -100%;
+   transition: 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+ }
+ .navbar.show .menu-list li a{
+   margin-left: 0px;
+ }
+}
+@media (max-width: 380px) {
+ .navbar .logo a{
+   font-size: 27px;
+ }
+}
